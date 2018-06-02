@@ -21,6 +21,12 @@
     }
   ],
   "main": "./lib",
+  "assembly": {
+    "namespace": "org.authnomicon/uma2",
+    "components": [
+      "http/exchange/ticket/exchange"
+    ]
+  },
   "devDependencies": {
     "make-node": "^0.3.0",
     "mocha": "^2.0.0",
