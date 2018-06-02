@@ -1,17 +1,17 @@
 {
-  "name": "authnomicon-oauth2-uma2",
+  "name": "authnomicon-uma2",
   "version": "0.0.0",
-  "description": "",
+  "description": "UMA 2.0 components for the Authnomicon project.",
   "author": {
     "name": "Jared Hanson",
     "email": "jaredhanson@gmail.com",
     "url": "http://jaredhanson.net/"
   },
   "repository": {    "type": "git",
-    "url": "git://github.com/authnomicon/oauth2-uma2.git"
+    "url": "git://github.com/authnomicon/uma2.git"
   },
   "bugs": {
-    "url": "http://github.com/authnomicon/oauth2-uma2/issues"
+    "url": "http://github.com/authnomicon/uma2/issues"
   },
   "license": "MIT",
   "licenses": [
