@@ -1,1 +1,1 @@
-# authnomicon-oauth2-uma2
+# authnomicon-uma2
