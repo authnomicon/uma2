@@ -13,8 +13,11 @@ exports = module.exports = function(listHandler, createHandler, readHandler, upd
   return router;
 };
 
-exports['@implements'] = [ 'http://i.bixbyjs.org/http/Service' ];
-exports['@path'] = '/rreg';
+exports['@implements'] = [
+  'http://i.bixbyjs.org/http/Service',
+  'http://schemas.authnomicon.org/js/http/uma2/ResourceRegistrationService'
+];
+exports['@path'] = '/uma2/rreg';
 exports['@require'] = [
   './handlers/list',
   './handlers/create',

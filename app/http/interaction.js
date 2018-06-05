@@ -11,7 +11,7 @@ exports['@implements'] = [
   'http://i.bixbyjs.org/http/Service',
   'http://schemas.authnomicon.org/js/http/uma2/ClaimsInteractionService'
 ];
-exports['@path'] = '/oauth2/authorize';
+exports['@path'] = '/uma2/claims';
 exports['@require'] = [
   './handlers/interaction'
 ];
